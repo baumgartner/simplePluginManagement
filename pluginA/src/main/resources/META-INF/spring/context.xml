@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:osgi="http://www.springframework.org/schema/osgi"
+	xsi:schemaLocation="http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi-2.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	<bean class="at.badgateway.osgi.plugin.internal.FirstPluginImpl"
+		id="pluginA">
+		<property name="pluginName" value="plugin A" />
+	</bean>
+
+	<osgi:service ref="pluginA"
+		interface="at.badgateway.osgi.plugin.api.SimplePlugin" />
+
+</beans>

@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi"
+	xsi:schemaLocation="http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi-2.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+
+	<osgi:reference id="pluginManager" cardinality="1..1"
+		interface="at.badgateway.osgi.plugin.manager.api.PluginManager" filter="(org.springframework.osgi.bean.name=pluginManager)"/>
+
+	<bean class="at.badgateway.osgi.plugin.starter.BlueprintStarter">
+		<property name="pluginManager" ref="pluginManager" />
+	</bean>
+
+</beans>

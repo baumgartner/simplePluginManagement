@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Export-Package: at.badgateway.osgi.plugin.api;version="1.0.0.SNAPSHOT"
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bundlor 1.1.2.RELEASE
+Bundle-SymbolicName: plugin-api
+

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: at.badgateway.osgi.plugin.starter;version="1.0.0.SNAPS
+ HOT";uses:="at.badgateway.osgi.plugin.manager.api,org.osgi.framework,
+ org.springframework.beans.factory"
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bundlor 1.1.2.RELEASE
+Bundle-Activator: at.badgateway.osgi.plugin.starter.OsgiStarterActivat
+ or
+Import-Package: at.badgateway.osgi.plugin.api,at.badgateway.osgi.plugi
+ n.manager.api,org.osgi.framework,org.slf4j,org.springframework.beans.
+ factory,org.springframework.util
+Bundle-SymbolicName: pluginStarter
+

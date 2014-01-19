@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bundlor 1.1.2.RELEASE
+Import-Package: at.badgateway.osgi.plugin.api,org.slf4j,org.springfram
+ ework.beans.factory.annotation
+Bundle-SymbolicName: pluginB
+
