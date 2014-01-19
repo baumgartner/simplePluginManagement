@@ -24,7 +24,7 @@ public class BlueprintStarter implements InitializingBean {
 		SimplePlugin plugin;
 		try {
 			plugin = pluginManager.getPlugin(name);
-			plugin.invoke("called by starter");
+			plugin.invoke("called by blueprintStarter");
 		} catch (PluginNotFoundException e) {
 			logger.error("plugin with name: {} not found", name);
 		}
