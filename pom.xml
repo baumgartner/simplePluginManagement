@@ -11,7 +11,7 @@
 		<module>pluginA</module>
 		<module>pluginB</module>
 		<module>plugin-manager</module>
-		<module>pluginStarter</module>
+		<module>plugin-starter</module>
 	</modules>
 
 	<properties>

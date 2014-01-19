@@ -9,5 +9,5 @@ Bundle-Activator: at.badgateway.osgi.plugin.starter.OsgiStarterActivat
 Import-Package: at.badgateway.osgi.plugin.api,at.badgateway.osgi.plugi
  n.manager.api,org.osgi.framework,org.slf4j,org.springframework.beans.
  factory,org.springframework.util
-Bundle-SymbolicName: pluginStarter
+Bundle-SymbolicName: plugin-starter
 
