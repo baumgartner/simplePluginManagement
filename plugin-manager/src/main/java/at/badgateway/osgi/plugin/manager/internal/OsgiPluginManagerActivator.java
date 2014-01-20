@@ -17,7 +17,7 @@ public class OsgiPluginManagerActivator implements BundleActivator {
 	public void start(BundleContext bundleContext) throws Exception {
 		PluginManager manager = new OsgiPluginManagerImpl(bundleContext);
 		
-		Dictionary<String, String> properties = new Hashtable<>();
+		Dictionary<String, String> properties = new Hashtable<String, String>();
 		properties.put("myPluginManager", "OsgiPluginManager");
 		
 		logger.info("add service");

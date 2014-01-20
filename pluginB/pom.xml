@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>at.badgateway.osgi.plugin.simple</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>simplePluginManagement</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>pluginB</artifactId>
